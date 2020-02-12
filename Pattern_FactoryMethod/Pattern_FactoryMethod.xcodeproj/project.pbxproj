@@ -16,6 +16,7 @@
 		0429416D23F48BD80014761B /* Exersice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429416C23F48BD80014761B /* Exersice.swift */; };
 		0429416F23F48C520014761B /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429416E23F48C520014761B /* Jumping.swift */; };
 		0429417123F48CFE0014761B /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429417023F48CFE0014761B /* Squarts.swift */; };
+		0429417423F48E890014761B /* FactoryExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429417323F48E890014761B /* FactoryExercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0429416C23F48BD80014761B /* Exersice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exersice.swift; sourceTree = "<group>"; };
 		0429416E23F48C520014761B /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
 		0429417023F48CFE0014761B /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
+		0429417323F48E890014761B /* FactoryExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				0429415823F48B7E0014761B /* AppDelegate.swift */,
 				0429415A23F48B7E0014761B /* SceneDelegate.swift */,
+				0429417523F4925A0014761B /* Factory */,
 				0429417223F48DB50014761B /* Exerxcises */,
 				0429415C23F48B7E0014761B /* ViewController.swift */,
 				0429415E23F48B7E0014761B /* Main.storyboard */,
@@ -82,6 +85,14 @@
 				0429416E23F48C520014761B /* Jumping.swift */,
 			);
 			path = Exerxcises;
+			sourceTree = "<group>";
+		};
+		0429417523F4925A0014761B /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				0429417323F48E890014761B /* FactoryExercise.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				0429415923F48B7E0014761B /* AppDelegate.swift in Sources */,
 				0429416F23F48C520014761B /* Jumping.swift in Sources */,
 				0429415B23F48B7E0014761B /* SceneDelegate.swift in Sources */,
+				0429417423F48E890014761B /* FactoryExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+   //массив наших упражнений
+    var arrayExersices = [Exersice]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
