@@ -14,6 +14,7 @@ enum Exersices {
     
     case jumping
     case squarts
+    case run // Running Exersices
     
 }
 
@@ -31,6 +32,7 @@ class FactoryExersice {
             
         case .squarts: return Squarts() //создаем обьект приседание
         case .jumping: return Jumping() //создаем обьект прыжки
+        case .run    : return Run() //  add New class Run
         
         }
         

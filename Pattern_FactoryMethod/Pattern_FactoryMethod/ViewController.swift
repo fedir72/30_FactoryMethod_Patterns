@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         //вызываем функцию создать упражнение для каждого нужного случая
         createExercise(exName: .jumping)
         createExercise(exName: .squarts)
+        createExercise(exName: .run)
+        createExercise(exName: .squarts)
         
         //запускаем функцию run
          runExersices()
