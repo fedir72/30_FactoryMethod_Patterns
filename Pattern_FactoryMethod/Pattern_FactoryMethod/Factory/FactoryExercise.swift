@@ -19,10 +19,10 @@ enum Exersices {
 
 // класс генерирующий обьекты на основе синглтона
 
-class FactoryExersices {
+class FactoryExersice {
     
     //ссылка на самого себя
-    static let defaultFactory = FactoryExersices()
+    static let defaultFactory = FactoryExersice()
     
     //фабричный метод создающий обьекты по протоколу упражнение(выбор из элементов свича упражнения ) а возвращаем протокол
     func createExercise(name: Exersices) -> Exersice {
